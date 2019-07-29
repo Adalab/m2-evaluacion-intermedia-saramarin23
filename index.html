@@ -9,8 +9,10 @@
   </head>
   <body class="webpage">
     <form class="webpage__form">
-      <h1 class="webpage__title">Adivina el número</h1>
-      <div class="tries"></div>
+      <div class="webpage__form--firstContainer">
+        <h1 class="webpage__title">Adivina el número</h1>
+        <div class="tries"></div>
+      </div>
       <div class="webpage__form--content">
         <h2 class="instructions">Introduce aquí tu número</h2>
         <input type="number" class="input" />
@@ -18,7 +20,9 @@
         <button class="btn" type="button">Prueba</button>
       </div>
     </form>
-    <div class="instructions__number">Escribe un número y dale a Prueba</div>
+    <div class="instructions__number">
+      Escribe un número y dale a <span class="span">Prueba</span>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
