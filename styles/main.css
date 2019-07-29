@@ -1,21 +1,9 @@
 .webpage {
   background-color: #d3d3d3;
   width: 100vw;
+  height: 100vh;
   font-family: sans-serif;
-  margin-top: 160px;
-}
-
-.webpage__form {
-  width: 60vw;
-  margin: 0 auto;
-}
-
-.webpage__form--firstContainer {
-  display: flex;
-  justify-content: space-around;
-}
-
-.title {
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -24,23 +12,32 @@
   font-size: 48px;
   font-weight: bold;
   margin-top: 20px;
+  position: absolute;
+  right: 60px;
+  top: 40px;
 }
 
 .instructions {
-  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 .webpage__form--content {
   display: flex;
   flex-direction: column;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.input {
+  height: 25px;
 }
 
 .btn {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .instructions__number {
-  text-align: center;
   border: 2px solid blue;
   color: blue;
   margin: 30px;
