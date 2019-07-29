@@ -1,0 +1,33 @@
+.webpage {
+  background-color: lightslategray;
+  width: 100vw;
+}
+
+.webpage__form {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.webpage__form--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 20px;
+}
+
+.instructions__number {
+  text-align: center;
+  border: 2px solid blue;
+  color: blue;
+  margin: 30px;
+}
