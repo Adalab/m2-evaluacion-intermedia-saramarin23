@@ -11,7 +11,7 @@
     <form class="webpage__form">
       <div class="webpage__form--firstContainer">
         <h1 class="webpage__title">Adivina el número</h1>
-        <div class="tries"></div>
+        <div class="js-tries tries">0</div>
       </div>
       <div class="webpage__form--content">
         <label class="instructions" for="number"
@@ -19,14 +19,14 @@
         >
         <input
           type="number"
-          class="input"
+          class="js-input input"
           id="number"
           placeholder="Escribe el número aquí"
         />
-        <button class="btn" type="button">Prueba</button>
+        <button class="js-btn btn" type="button">Prueba</button>
       </div>
     </form>
-    <div class="instructions__number">
+    <div class="js-instructions__number instructions__number">
       Escribe un número y dale a <span class="span">Prueba</span>
     </div>
     <script src="./js/main.js"></script>
